@@ -8,7 +8,7 @@ test("endtoendTC1 - Amazon website",{ tag: '@smoke' }, async ({ page }) => {
     await page.selectOption("//select[@id='searchDropdownBox']", {
       value: "search-alias=beauty",
     });
-
+//awaiting for 5 seconds after selecting dropdown option (optional)
     await page.fill("#twotabsearchtextbox", "soap");
 
     await page.waitForTimeout(5000);
