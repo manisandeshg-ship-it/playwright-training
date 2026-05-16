@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('saucedemo - login with standard_user', { tag: '@smoke' }, async ({ page }) => {
+test('saucedemo - login with standard_user', { tag: ['@smoke'] }, async ({ page }) => {
   // navigate to saucedemo
   await page.goto('https://www.saucedemo.com/');
 
