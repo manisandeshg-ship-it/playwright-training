@@ -1,0 +1,1 @@
+export type University = "Principle" | "Lecturer" | "Student";

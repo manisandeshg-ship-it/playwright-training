@@ -1,0 +1,36 @@
+{
+  "applications": [
+    {
+      "appId": "APP001",
+      "appName": "HR Portal",
+      "users": [
+        {
+          "id": "U001",
+          "name": "Alice Johnson",
+          "role": "Admin"
+        },
+        {
+          "id": "U002",
+          "name": "Bob Smith",
+          "role": "Editor"
+        },
+        {
+          "id": "U003",
+          "name": "Charlie Brown",
+          "role": "Viewer"
+        }
+      ]
+    },
+    {
+      "appId": "APP002",
+      "appName": "Finance System",
+      "users": [
+        {
+          "id": "U004",
+          "name": "David Lee",
+          "role": "Admin"
+        }
+      ]
+    }
+  ]
+}
