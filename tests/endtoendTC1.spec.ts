@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test("endtoendTC1 - Amazon website", async ({ page }) => {
+test("endtoendTC1 - Amazon website",{ tag: '@smoke' }, async ({ page }) => {
   await page.goto(
     "https://www.amazon.com/ref=nav_logo"
   );
