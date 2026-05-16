@@ -6,6 +6,7 @@
     "ignoreDeprecations": "6.0",
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "strict": false
+    "strict": false,
+     "types": ["node"] 
   }
 }
